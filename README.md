@@ -39,6 +39,12 @@ _if images are needed install the following_
 * _Run: ```npm install file-loader --save-dev```_
 * _Run: ```npm install html-loader@1.3.2 --save-dev```_
 
+_bootstrap install_
+* _Run: ```npm install bootstrap@4.5.3```_
+
+_API Key install_
+* _Run: ```npm install dotenv-webpack@2.0.0 --save-dev```_
+
 
 
 
