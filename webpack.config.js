@@ -17,14 +17,14 @@ module.exports = {
     contentBase: './dist'
   },
   plugins: [
-    new Dotenv(),
     new ESLintPlugin(),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       title: 'API_coding',
       template: './src/index.html',
       inject: 'body'
-    })
+    }),
+    new Dotenv()
   ],
   module: {
     rules: [{
